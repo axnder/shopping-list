@@ -9,8 +9,23 @@ botaoAdicionar.addEventListener("click", function() {
         const novoElementoLi = document.createElement("li");
         novoElementoLi.textContent = valorDoItem;
         
+        const botaoRemover = document.createElement("button");
+        botaoRemover.textContent = "X";
+        botaoRemover.classList.add("btn-excluir");
+        
+        botaoRemover.addEventListener("click", function() {
+            listaCompras.removeChild(novoElementoLi);
+        });
+
+        novoElementoLi.appendChild(botaoRemover);
         listaCompras.appendChild(novoElementoLi);
         
         inputNovoItem.value = "";
+    }
+});
+
+inputNovoItem.addEventListener("keypress", function(event) {
+    if (event.key === "Enter") {
+        botaoAdicionar.click();
     }
 });
