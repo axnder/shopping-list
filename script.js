@@ -20,7 +20,7 @@ botaoAdicionar.addEventListener("click", function() { // Adiciona um ouvinte de 
         novoElementoLi.appendChild(botaoRemover); // Adiciona o botão "Remover" como um filho do elemento de lista (li).
         listaCompras.appendChild(novoElementoLi); // Adiciona o novo elemento de lista (li) à lista de compras (ul).
         
-        inputNovoItem.value = "";
+        inputNovoItem.value = ""; // Limpa o valor do input após adicionar o item à lista de compras.
     }
 });
 
