@@ -1,5 +1,5 @@
 body {
-    font-family: Arial, sans-serif;
+    font-family: Poppins, sans-serif;
     background-color: #f4f4f9;
     text-align: center;
     margin-top: 50px;
@@ -8,6 +8,7 @@ body {
 input {
     padding: 10px;
     font-size: 16px;
+    font-family: Poppins, sans-serif;
     border: 1px solid #ccc;
     border-radius: 5px;
 }
@@ -15,6 +16,7 @@ input {
 button {
     padding: 10px 20px;
     font-size: 16px;
+    font-family: Poppins, sans-serif;
     background-color: #28a745;
     color: white;
     border: none;
@@ -47,6 +49,7 @@ li {
 .btn-excluir {
     background-color: #dc3545;
     color: white;
+    font-family: Poppins, sans-serif;
     border: none;
     border-radius: 3px;
     padding: 5px 10px;
