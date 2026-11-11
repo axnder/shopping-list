@@ -31,3 +31,5 @@ Para testar este projeto no seu próprio computador, siga os passos abaixo:
     ```
 3.  Abra o arquivo `index.html` diretamente no seu navegador de preferência (dando um duplo clique no arquivo).
     *   *Dica:* Se estiver utilizando o Visual Studio Code, você também pode abrir a pasta no editor e usar a extensão "Live Server" para rodar o projeto em tempo real.
+
+<p align="center">Made by Alexander 💜</p>
