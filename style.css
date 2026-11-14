@@ -13,6 +13,7 @@ body {
 
 .area-insercao {
     display: flex;
+    flex-direction: row;
     justify-content: center;
     align-items: center;
     gap: 10px;
@@ -24,6 +25,7 @@ body {
 input {
     flex: 1;
     min-width: 0;
+    width: auto;
     padding: 10px;
     font-size: 16px;
     font-family: 'Poppins', sans-serif;
@@ -39,6 +41,7 @@ input:focus {
 }
 
 button#btn-adicionar {
+    width: auto;
     padding: 10px 20px;
     font-size: 16px;
     font-family: 'Poppins', sans-serif;
@@ -47,7 +50,7 @@ button#btn-adicionar {
     border: none;
     border-radius: 5px;
     cursor: pointer;
-    flex-shrink: 0
+    flex-shrink: 0;
 }
 
 button#btn-adicionar:hover {
