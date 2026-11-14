@@ -9,6 +9,7 @@ body {
 input {
     padding: 10px;
     font-size: 16px;
+    font-family: 'Poppins', sans-serif;
     background-color: #1e1e24;
     color: #e4e4e7;
     border: 1px solid #3f3f46;
@@ -23,6 +24,7 @@ input:focus {
 button#btn-adicionar {
     padding: 10px 20px;
     font-size: 16px;
+    font-family: 'Poppins', sans-serif;
     background-color: #a855f7;
     color: #ffffff;
     border: none;
@@ -66,4 +68,36 @@ li {
 .btn-excluir:hover {
     background-color: #ef4444;
     color: #ffffff;
+}
+footer {
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    background-color: #121212;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+    padding: 15px 0;
+    font-size: 14px;
+    color: #e4e4e7;
+    box-shadow: 0 -4px 10px rgba(0, 0, 0, 0.3);
+}
+
+footer p {
+    margin: 0;
+}
+
+#btn-github {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    color: #a855f7;
+    transition: all 0.3s ease;
+}
+
+#btn-github:hover {
+    color: #ffffff;
+    transform: scale(1.1);
 }
