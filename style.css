@@ -47,6 +47,7 @@ button#btn-adicionar {
     border: none;
     border-radius: 5px;
     cursor: pointer;
+    flex-shrink: 0
 }
 
 button#btn-adicionar:hover {
@@ -129,12 +130,8 @@ footer p {
         font-size: 24px;
     }
 
-    .area-insercao {
-        flex-direction: column;
-    }
-
-    input,
     button#btn-adicionar {
-        width: 100%;
+        padding: 10px 14px;
+        font-size: 15px;
     }
 }
