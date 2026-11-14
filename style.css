@@ -49,12 +49,48 @@ li {
     display: flex;
     justify-content: space-between;
     align-items: center;
+    gap: 10px;
     background-color: #18181b;
     padding: 10px;
     margin-bottom: 8px;
     border-radius: 5px;
     border: 1px solid #27272a;
     box-shadow: 0 4px 6px rgba(0, 0, 0, 0.3);
+    transition: all 0.2s ease;
+}
+
+.texto-item {
+    text-align: left;
+    word-break: break-word;
+    transition: all 0.2s ease;
+}
+
+li.comprado .texto-item {
+    text-decoration: line-through;
+    color: #71717a;
+}
+
+.acoes-item {
+    display: flex;
+    align-items: center;
+    gap: 6px;
+    flex-shrink: 0;
+}
+
+.btn-check {
+    background-color: transparent;
+    color: #22c55e;
+    border: 1px solid #22c55e;
+    border-radius: 3px;
+    padding: 5px 9px;
+    cursor: pointer;
+    transition: all 0.2s ease;
+}
+
+.btn-check:hover,
+li.comprado .btn-check {
+    background-color: #22c55e;
+    color: #ffffff;
 }
 
 .btn-excluir {
